@@ -29,3 +29,10 @@
     border: 1px solid #000;/*bd*/ 
     border: none; /*bd:n*/
 }
+
+body{
+    background-color: thistle;
+}
+table{
+    border:1px solid #000;
+}

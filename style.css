@@ -1,0 +1,31 @@
+.hc{
+    position: relative;/*pos default is relative*/ 
+    position: fixed;/*posfixed*/ 
+    display: block;/*d*/
+    display: flex;/*d:f we use : to define property*/ 
+    display: inline;/*d:i*/ 
+    display: inline-block;/*d:ib*/
+    visibility: hidden;/*v*/
+    visibility: none;/*v:n*/ 
+    overflow: hidden;/*ov*/
+    overflow: scroll;/*ov:s*/
+    cursor: help;/*cu:h*/
+    
+    margin: 9px;/*m:9*/
+    margin: auto;/*m:a*/
+    margin-top: 9px;/*mt:9*/ 
+    margin-bottom: 9px;/*mb:9*/
+
+    padding: 9px;
+    padding-top: 9px;/*pt:9*/
+    
+    background: yellow;/*b:y*/ 
+    background-color: #fff;/*bc:#fff*/ 
+
+    color: #000;/*c*/
+    
+    color: rgb(0, 0, 0);/*cr*/ 
+    
+    border: 1px solid #000;/*bd*/ 
+    border: none; /*bd:n*/
+}

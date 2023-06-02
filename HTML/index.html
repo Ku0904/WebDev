@@ -83,6 +83,217 @@
             <td>123</td>
         </tr>
     </table>
+    <!--table,thead,tbody,tfoot,tr,td,th-->
+    <table border="1">
+     <thead>
+        <th>name</th>
+        <th>name2</th>
+        <th>name3</th>
+        <th>name4</th>
+        <tbody>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                <td rowspan="3">d</td><!--will take space of 3 rows same for column-->
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>b</td>
+                <td>c</td>
+                
+            </tr>
+        </tbody>
+     </thead>
+    </table>
+    <table border="1">
+        <tr>
+            <td>column1</td>
+            <td>column2</td>
+            <td>column3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">row 1 cell 1</td>
+            <td>row 1 cell 2</td>
+            <td>row 1 cell 3</td>
+        </tr>
+        <tr>
+
+            <td>row 2 cell 2</td>
+            <td>row 2 cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">row 3 cell 1</td>
+
+
+        </tr>
+    </table>
+        <table border="1">
+            <thead>
+                <th>no.</th>
+                <th>full name</th>
+                <th>position</th>
+                <th>salary</th>
+                <th>type</th>
+            </thead>
+            <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>a</td>
+                    <td>founder</td>
+                    <td>1k</td>
+                    <td rowspan="4">company founder</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>b</td>
+                    <td>founder</td>
+                    <td>2k</td>
+                 </tr>
+                 <tr>
+                    <td>3</td>
+                    <td>c</td>
+                    <td>founder</td>
+                    <td>3k</td>
+                 </tr>
+                 <tr>
+                    <td>4</td>
+                    <td>d</td>
+                    <td>founder</td>
+                    <td>5k</td>
+                 </tr>
+            </tbody>
+            <tfoot>
+                 <tr>
+                    <td colspan="3">total expense</td>
+                    <td>4600</td>
+                 </tr>
+            </tfoot>
+        </table>
+    <table border="1">
+        <tr>
+            <td rowspan="3">day</td>
+            <td colspan="3">seminar</td>
+        </tr>
+        <tr>
+            <td colspan="2">schedule</td>
+            <td rowspan="2">topic</td>
+        </tr>
+        <tr>
+            <td>begin</td>
+            <td>end</td>
+        </tr>
+        <tr>
+            <td rowspan="2">monday</td>
+            <td rowspan="2">8am</td>
+            <td rowspan="2">5pm</td>
+            <td>Intro to xml</td>
+        </tr>
+        <tr>
+            <td>validity DTD and relax NG</td>
+        </tr>
+        <tr>
+            <td rowspan="3">tuesday</td>
+            <td>8 am</td>
+            <td>11 am</td>
+            <td rowspan="1.5">xpath></td>
+        </tr>
+        <tr>
+            <td>11 am</td>
+            <td>2 pm</td>
+        </tr>
+        <tr>
+            <td>2pm</td>
+            <td>5pm</td>
+            <td rowspan="1.5">xsl transformation</td>
+        </tr>
+        <tr>
+            <td>wednesday</td>
+            <td>8 am</td>
+            <td>12 pm</td>
+            <td>xsl formatting objects</td>
+        </tr>
+    </table>
+    <form action=""><!---->
+        <label for="email" name="for more specific naming" >Enter Email ID: </label><!--to tell for what to put in the box-->
+        <input type="text" id="email"><!--id of input and for of label should be same-->
+        <!--Input types ( textfield , button , radio , checkbox , file , image-button , password , date-picker  )-->
+        <br>
+        <label for="pass">Enter Password: </label>
+        <input type="password" id="pass" placeholder="enter the password">
+        <input type="submit" value="click here"><!--a button can add br to move it to next line-->
+        <button>click here 2</button><!--another way to create button-->
+    </form>
+    <!--Form elements ( input , label , select , option , button , textarea , fieldset[for grouping of multiple forms] , legend )-->
+    <br>
+    <form >
+        <label for="date">Choose Date:</label>
+        <input type="date" name="" id="date">
+    <br>
+        <label for="hm">Choose your Dish</label>
+        <select name="" id="hm" multiple size="2"><!--multiple size or multiple for selecting more than 1 option at a time and press ctrl as well while selecting-->
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+        </select>
+    <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="enter text here"></textarea>
+    <br>
+        <label for="b1">Button</label>
+        <input type="submit" id="b1" name="button1" value="Jhon Wick">
+    <br>
+    <label for="r1">Radio</label>
+    <input type="radio" id="r1" name="radio1" value="Jhon Wick"><!--can make multiple radio buttons-->    
+    <br>
+    <label for="r11">male</label>
+    <input type="radio" id="r11" name="radio1" value="male">     
+    <label for="r12">female</label>
+    <input type="radio" id="r12" name="radio1" value="female">
+    <label for="r13">6</label>
+    <input type="radio" id="r13" name="radio1" value="6">
+    <br>
+    <label for="c1">checkbox</label>
+    <input type="checkbox" id="c1" name="checkbox1" value="Jhon Wick">   
+    <br>
+    <label for="f1">file</label>
+    <input type="file" id="f1" name="file1" value="Jhon Wick">
+    <br>
+    <input type="image" name="imagebutton1" id="ib1" alt="click here babe" src="Tables.png" width="100px">
+    <br>
+    <label for="d1">date</label>
+    <input type="date" id="d1" name="date1" value="Jhon Wick">
+    </form>
+    <br>
+    <fieldset>
+        <legend>Bruhman is a dummy</legend>
+        <form >
+            <label for="date">Choose Date:</label>
+            <input type="date" name="" id="date">
+        <br>
+            <label for="hm">Choose your Dish</label>
+            <select name="" id="hm">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+            </select>
+        <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="enter text here"></textarea>
+        </form>
+        <br>
+    </fieldset>
+    <!--whenever we put name="radio" in input radio we are able to select 2 different options else not-->
     <form action="http://backend.com/api/" method="get">
         <label for="email">Email: </label>
         <input type="text" name="email" id="email"><!--when we make id=for makes it more accessible or else make it pass name helps in telling how to send info-->
@@ -94,12 +305,19 @@
             <option value="Sublime">sublime</option>
         </select>
     </form>
-
     <input type="text" name="newsletter" id="pass" placeholder="email"><!--input and button won't take your values only form will and if form tag take these both values will go even if we press a single button so be careful-->
     <button>done</button>  
     <pre>just a advanced 
         version of p tag
         writes my text in 
         the way I want</pre>  
+    <nav>
+        <ul>
+            <li><a href="">a</a></li>
+            <li><a href="">b</a></li>
+            <li><a href="">c</a></li>
+            <li><a href="">d</a></li>
+        </ul>
+    </nav><!--section of a page whose purpose is to provide navigation links, either within the current document or to other documents-->
 </body>
 </html>

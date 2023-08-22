@@ -1,0 +1,17 @@
+Auto Close Tag
+Auto Rename Tag
+Babel ES6/ES7
+Babel JavaScript
+Better Comment
+Code Runner
+ES7+ React/Redux/React-Native/JS snippets
+ESLint
+GitHub Pull Requests and Issues
+GitLens — Git supercharged
+Highlight Matching Tag
+HTML End Tag Labels
+Live Server
+Material Icon Theme
+Prettier - Code formatter
+Simple React Snippets
+Tailwind CSS IntelliSense

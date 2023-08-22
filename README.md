@@ -1,3 +1,6 @@
-# WebDev
+# Learning Web Development 
 
-this is my practice repository for learning WebDev 
+My journey into learning web development
+
+This repository contains me show how I learned programming and developing websites and web apps
+

@@ -1,0 +1,5 @@
+libraries vs frameworks :-
+
+Reusable pieces of code vs A structure for developers to build with and framework also uses libraries
+
+Read Up on APIs(a set of functions that an application component or service can provide) all types like REST(Representational State Transfer) API, sensor based API

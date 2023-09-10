@@ -3,3 +3,7 @@ libraries vs frameworks :-
 Reusable pieces of code vs A structure for developers to build with and framework also uses libraries
 
 Read Up on APIs(a set of functions that an application component or service can provide) all types like REST(Representational State Transfer) API, sensor based API
+
+Web Accessibility :- the practice of making your website as usable by many users as possibleas with asistive technologies and 
+Accessible Rich Internet Application (ARIA) techniques,Correct HTML structure and Appropriate use of HTML elements like
+Screen reader software, Subtitles in videos and Speech recognition software

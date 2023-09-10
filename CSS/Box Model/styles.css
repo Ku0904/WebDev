@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* but why ? lets say we have a lot of boxes in our html page padding and border gets added and we have messy look so with this property every change will be done inside the assigned height and width */
+}
+
+.BoxModel {
+  background-color: aqua;
+  color: black;
+  height: 300px;
+  width: 300px;
+  padding: 150px 25px 75px 100px; /*padding : top right bottom left */
+  border: solid black 5px; /* border: type color px */
+  border-radius: 50px;
+  margin: 150px 25px 75px 100px; /*margin: top right bottom left */
+}
+.practice {
+  background-color: aqua;
+  color: black;
+  width: 10px;
+  padding: 20px;
+  margin: 40px;
+}
+
+/* Display Property :- display type of specific element*/
+.block {
+  border: solid black 5px;
+}
+.inline {
+  border: solid black 5px;
+}

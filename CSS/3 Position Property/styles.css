@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  border: 5px solid #212121;
+}
+img {
+  width: 20%;
+  margin: 1.7%;
+}
+.container {
+  position: relative;
+  height: 5000px;
+}
+.image1 {
+  /*by default position is static*/
+  position: relative;
+  top: 100px; /*top right left bottom we have all these properties and relative to its original position within the parent element*/
+}
+.image2 {
+  position: absolute; /*mostly used in overlapping the element and relative to the nearest positioned ancestor means parent class should be taken relative*/
+  top: 100px;
+  /*there will no gap and image 2 space will be there*/
+}
+.image3 {
+  position: sticky;
+  top: 50px;
+  /*fixed till parent container not out of it and relative to parent class*/
+}
+.image4 {
+  position: fixed;
+  top: 100px;
+  /*even when we scroll this image will stay fixed even after parent container and relative to website*/
+}

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img1 {
+  float: right;
+  height: 25%;
+  width: 25%;
+}
+.img2 {
+  float: left;
+  height: 25%;
+  width: 25%;
+  clear: right; /* no image will float on right side of this image*/
+}
+.box {
+  border: 5px solid #212121;
+  overflow: auto;
+}
+.item {
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  background-color: #212121;
+  color: #fff;
+  border: 3px solid orange;
+  float: left; /*grid collapse overflow condition to prevent it assign overflow auto in parent class*/
+}
+.somebox {
+  border: 5px solid #212121;
+  width: 500px;
+  height: 500px;
+  /*overflow: hidden; hidding the part that is in overflow*/
+  /*overflow: auto; will adjust the area it takes*/
+  overflow: scroll;
+}

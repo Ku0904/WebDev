@@ -2,8 +2,65 @@ libraries vs frameworks :-
 
 Reusable pieces of code vs A structure for developers to build with and framework also uses libraries
 
+If a library depends on another library, it forms a Dependency Tree
+
 Read Up on APIs(a set of functions that an application component or service can provide) all types like REST(Representational State Transfer) API, sensor based API
 
 Web Accessibility :- the practice of making your website as usable by many users as possibleas with asistive technologies and 
 Accessible Rich Internet Application (ARIA) techniques,Correct HTML structure and Appropriate use of HTML elements like
 Screen reader software, Subtitles in videos and Speech recognition software
+
+Responsive Sites is the combination of three techniques, flexible grids, fluid images and media queries
+in grids space between them is called gutters and space from side is margin 
+
+A breakpoint is the point at which a website's content and layout will adapt to provide the best possible user experience. A Breakpoint can function in different ways across three different grids a fixed grid fluid or for with grids and lastly, hybrid grids
+
+To change the style of a Bootstrap component, you use a modifier eg btn and modifier classes eg btn-danger
+
+Infixes represent the responsive breakpoints in the Bootstrap grid eg col-xl-6 (xl here is infix) 
+
+Static vs Dynamic content :- stored in web server vs given when HTTP request is made to the application server aka backend 
+
+Caching let's say the request is made up again by application server the browser will store certain info for fast loading 
+
+Single Page Applications (SPA) no means you have only one web page rather you have only one html file when browsing it rewrites the current page 
+
+There are Two Ways to do this Bundling(server loads all the nessecary HTML,CSS,JS) and lazy loading/Code Splitting(only limited HTML,CSS,JS is downloaded and some additional resources when rest are downloaded when it is nessecary) both approach are good depending upon use case example we have a movie page and we want to add button that gives a random movie in first case it will have a post request and web server will load a new page in second case it will request a json file from application server to upon the page that is already open 
+
+React is a Library used with other libraries (dependencies)
+
+A React application is built up of a tree of components called the Component Hierarchy
+
+Maintain code in the long term, Simplify testing, Re-use components and Write less code to implement functionality in a web browser
+
+Components in React - A Small Piece of UI example a music player
+
+There are several React Component Libraries like we want to embed a map ,video player and etc 
+
+React is not a JS MVC(Model View Controller) framework 
+React doesn't uses Templates or HTML directives
+Everytime DOM is updated we have to recompute the page React uses virtual DOM in memory it's a representation of Browser DOM in memory if both are same no change is made of there is a change the change is made virtual DOM compares it with previous version and that change is updated in Browser DOM causesing the page to change 
+
+React uses fiber Architecture what it does is spread the update so all the resources doesn't load at the same time
+
+React uses parent and child components 
+Example of shopping app in React
+App:-
+1st new itembar
+2nd shopping list :-
+Shopping items
+Shopping items
+Shopping items
+Shopping items
+
+Example of a blog page
+App:-
+1st NavBar:-
+Title
+Search 
+Navigation links
+2nd page component:-
+Main feature component 
+Small feature component
+Small feature component
+

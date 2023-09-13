@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>BootStrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <!--our container changes with size cause bootstrap have breakpoints sm md lg xl xxl-->
+      <div class="row">
+        <!--row uses flex box in bootstrap-->
+        <div class="col-auto">
+          <!--1 col have total 12 spaces and auto will give as much space as text required-->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </p>
+        </div>
+        <div class="col-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </p>
+        </div>
+        <div class="col-12">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </p>
+        </div>
+        <div class="col-lg-2 col-10">
+          <!--we are telling it will be 2 col in lg and 8 col in every other screen if we don't tell what size to take on smaller screens it will take 12 col-->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </p>
+        </div>
+        <div class="col-3">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </div>
+        </div>
+        <div class="col-3 offset-3">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="row row-cols-2 row-cols-lg-4 gy-5 gx-5">
+        <!--every row will only have 3 cols and in lg 4 cols gy for gap on y axis-->
+        <!--nesting of rows and cols-->
+        <div class="col">
+          <div class="row">
+            <div class="col">Lorem, ipsum.</div>
+            <div class="col">Lorem, ipsum.</div>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+            illum.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <table class="table table-secondary table-borderless">
+      <!--table-primary for blue, secondary for grey and more-->
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td class="table-danger">Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <table class="table table-striped-columns">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <table class="table table-hover table-sm">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table">
+          <tr>
+            <th>Person 1</th>
+            <th>Person 2</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+            <th>Person 3</th>
+          </tr>
+          <tr>
+            <td>Emil</td>
+            <td>Tobias</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+            <td>Linus</td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>14</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+            <td>10</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table">
+          <thead class="table-group-divider">
+            <tr>
+              <td>Emil</td>
+              <td>Tobias</td>
+              <td>Linus</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>14</td>
+              <td>10</td>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td>Emil</td>
+              <td>Tobias</td>
+              <td>Linus</td>
+            </tr>
+            <tr>
+              <td>16</td>
+              <td>14</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <label for="sometext" class="form-label">SomeText</label>
+      <input type="text" id="sometext" class="form-control form-control-lg" />
+      <label for="sometext" class="form-label">SomeText</label>
+      <input
+        type="text"
+        id="sometext"
+        value="SomeText"
+        readonly
+        class="form-control"
+      />
+      <label for="sometext" class="form-label">SomeText</label>
+      <input
+        type="text"
+        id="sometext"
+        class="form-control form-control-plaintext"
+      />
+      <label for="sometext" class="form-label">SomeText</label>
+      <input
+        type="color"
+        id="sometext"
+        class="form-control form-control-color"
+      />
+      <label for="sometext" class="form-label">SomeText</label>
+      <input type="range" id="sometext" class="form-range" />
+      <label for="sometext" class="form-label">SomeText</label>
+      <select class="form-select form-select-lg" disabled>
+        <option>1</option>
+        <option>2</option>
+      </select>
+      <div class="form-check form-switch form-check-inline">
+        <input type="checkbox" class="form-check-input" id="sometext" />
+        <label for="sometext" class="form-check-label">SomeText</label>
+      </div>
+      <div class="form-check form-switch form-check-inline">
+        <input type="checkbox" class="form-check-input" id="sometext" />
+        <label for="sometext" class="form-check-label">SomeText</label>
+      </div>
+      <button>Submit</button>
+    </div>
+
+    <br />
+
+    <!--input group-->
+    <div class="container">
+      <form>
+        <label for="text" class="form-label">Text</label>
+        <div class="input-group input-group-lg">
+          <input type="text" id="text" class="form-control" />
+          <input type="text" id="text2" class="form-control" />
+
+          <div class="input-group-text">$</div>
+          <input type="number" id="money" class="form-control" />
+          <div class="input-group-text">.00</div>
+          <button class="btn btn-primary">+</button>
+        </div>
+      </form>
+    </div>
+
+    <br />
+
+    <!--Floating Lables-->
+    <div class="container">
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="text"
+          id="email"
+          class="form-control"
+          placeholder="Enter Email"
+        />
+        <button>Submit</button>
+      </form>
+      <form>
+        <div class="form-floating">
+          <input
+            type="text"
+            id="email"
+            class="form-control"
+            placeholder="Place Email Here"
+          />
+          <label for="email" class="form-label">Email</label>
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <br />
+    <!--form validation-->
+    <div class="container">
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="text"
+          id="email"
+          class="form-control is-valid"
+          placeholder="Enter Email"
+          required
+        />
+        <button>Submit</button>
+      </form>
+      <form>
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="text"
+          id="email"
+          class="form-control"
+          placeholder="Enter Email"
+          required
+        />
+        <button>Submit</button>
+      </form>
+      <form novalidate>
+        <label for="email" class="form-label">Email</label>
+        <input
+          type="text"
+          id="email"
+          class="form-control"
+          placeholder="Enter Email"
+          required
+        />
+        <div class="invalid-feedback">Invalid Text</div>
+        <div class="valid-feedback">Correct Email</div>
+        <button>Submit</button>
+      </form>
+    </div>
+    <!--didn't get it much so do check it out again-->
+
+    <br />
+
+    <!--Buttons-->
+    <div class="container">
+      <button class="btn btn-primary">Test</button>
+      <a class="btn btn-primary">Test</a>
+      <button class="btn btn-link">Test</button
+      ><!--works as a link-->
+      <button class="btn btn-outline-secondary">Test</button>
+      <button
+        class="btn btn-primary active"
+        data-bs-toggle="button"
+        aria-pressed="true"
+      >
+        Test</button
+      ><!-- to add js in it -->
+      <div class="btn-group-vertical">
+        <!--for vertical we need to remove btn-group from whole class-->
+        <button class="btn btn-primary">Test</button>
+        <button class="btn btn-primary">Test</button>
+        <button class="btn btn-primary">Test</button>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <h1>Alert</h1>
+        <a href="#" class="alert-link">go here to find out more</a>
+        <button
+          class="btn-close"
+          aria-label="close"
+          data-bs-dismiss="alert"
+        ></button>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <div class="card">
+        <!--we can also have card-group-->
+        <img src="someimagepath" class="card-img-top" />
+        <h3 class="card-header">Header</h3>
+        <div class="card-body">
+          <h2 class="card-title">Title</h2>
+          <span class="card-subtitle">Subtitle</span>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, facere!
+          </div>
+        </div>
+        <h3 class="card-footer">Footer</h3>
+        <img src="someimagepath" class="card-img-bottom" />
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container">
+      <button
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#modal"
+      >
+        Open
+      </button>
+      <div class="modal fade" id="modal">
+        <div
+          class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-fullscreen-sm-down"
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1>Header</h1>
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                data-bs-target="#modal"
+              ></button>
+            </div>
+            <div class="modal-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Temporibus, laboriosam dolor? Maxime nulla eius magnam non ad
+              molestiae autem, dolorem et mollitia nemo error labore, laudantium
+              quo quod beatae expedita dolorum. Expedita non, at voluptatem
+              assumenda quia omnis eum nam voluptas necessitatibus alias?
+              Deleniti rerum ipsum nisi animi exercitationem neque delectus?
+              Dolorum repudiandae aspernatur, temporibus assumenda maxime nam
+              laudantium, perspiciatis quisquam debitis dolore dicta ratione
+              explicabo cum rerum possimus doloribus at reprehenderit vero
+              corrupti molestias natus quam? Soluta veniam repellat odio ipsum
+              eum perspiciatis, vel blanditiis! Consequatur dolorum odio
+              incidunt placeat error facilis rerum ducimus sapiente vel nisi!
+              Sed nesciunt, maiores quos, eum qui voluptatum blanditiis officiis
+              atque, suscipit dolore alias optio odio. Harum enim, et expedita
+              iure nisi consequuntur perferendis necessitatibus. Labore
+              voluptate at quibusdam! Nobis modi corporis doloremque rerum sed,
+              a ad sit quibusdam vero voluptatem facilis similique reprehenderit
+              dolorem magni molestias beatae temporibus nam non magnam!
+              Accusamus cupiditate soluta nihil quaerat fugit! Deleniti quos
+              adipisci possimus corporis perferendis, nam cum aperiam, deserunt
+              illum minus omnis neque nesciunt nobis, officia voluptatibus
+              nostrum impedit molestias ab veniam ducimus. Libero velit error
+              dolor veniam quidem, rerum nesciunt voluptatum reprehenderit
+              consequuntur unde quos saepe praesentium consequatur maxime
+              eligendi ipsa ipsum dolorum?
+            </div>
+            <div class="modal-footer">
+              <button
+                class="btn btn-primary"
+                data-bs-dismiss="modal"
+                data-bs-target="#modal"
+              >
+                close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <p>
+      <a
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+        href="#collapseExample"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        Link with href
+      </a>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapseExample"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        Button with data-target
+      </button>
+    </p>
+    <div class="collapse show" id="collapseExample">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+        labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+
+    <br />
+
+    <nav class="navbar navbar-expand" style="background-color: aquamarine">
+      <div class="cotainer">
+        <a href="#" class="navbar-brand">Brand</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link disabled">Store</a>
+          </li>
+        </ul>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+        adipisci amet nam quas dolorum animi voluptatum distinctio eveniet
+        maiores, molestias voluptatem sequi
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#"
+            >Home <span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <!-- for color bg-,text-bg-, bg-opacity ----->
+    <!-- hstack div, vstack div, can give gap- -->
+    <!-- border- , border-color, rounder-9, border-opacity- -->
+    <!-- in class display property d-block d-lg-none -->
+    <!-- for padding p-9, ps-9, m-lg-9 p-auto -->
+    <!-- in class d-flex justify-content- align-items- and more properties -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

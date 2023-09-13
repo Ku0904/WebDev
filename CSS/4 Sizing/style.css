@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Sizing {
+  border: 5px solid #212121;
+  width: 25%; /*this is relative to body*/
+}
+.parent1 {
+  background-color: salmon;
+  width: 50%; /*with relative to body*/
+  border: 2px solid #212121;
+}
+.child1 {
+  background-color: mediumaquamarine;
+  width: 25%; /*with relative to parent*/
+  border: 2px solid #212121;
+}
+
+/*1px is 1/96 of 1 inch for physical pixcel*/
+/*Logical pixels are a relative measurement that takes into account the pixel density of a device, which is measured in pixels per inch (PPI) or dots per inch (DPI) One logical pixel is equal to one physical pixel on a device with a pixel density of 96 PPI or DPI*/
+/*view port is what is rendering and what we can see on screen*/
+.parent2 {
+  background-color: salmon;
+  width: 200px;
+  height: 50vh;
+  border: 2px solid #212121;
+}
+.child2 {
+  background-color: mediumaquamarine;
+  height: 100px;
+  width: 100vw;
+  font-size: 30px;
+  border: 2px solid #212121;
+}
+
+/*em(emphemeral unit) is a relative unit to parent font-size mostly used in fonts and padding*/
+.parent3 {
+  background-color: salmon;
+  border: 2px solid #212121;
+  font-size: 30px;
+}
+.child3 {
+  background-color: mediumaquamarine;
+  border: 2px solid #212121;
+  width: 50%;
+  font-size: 3em; /*3em = 3*30px*/
+  padding-left: 1em; /*1em = 1*30px*/
+}
+
+/*rem(root-em) is a relative unit to root*/
+.parent4 {
+  background-color: salmon;
+  border: 2px solid #212121;
+}
+.child4 {
+  background-color: mediumaquamarine;
+  border: 2px solid #212121;
+  width: 50%;
+  font-size: 3rem; /*by default it is font-size is 16px so this is 16*30px*/
+}
+
+/*try to use relative units to make responsive page rahter than using absolute units*/

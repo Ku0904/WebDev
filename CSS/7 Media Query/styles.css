@@ -1,0 +1,94 @@
+/*
+Here are some common breakpoints
+
+Small devices (phones, 600px and down): @media only screen and (max-width: 600px) {...}
+Medium devices (tablets, 768px and up): @media only screen and (min-width: 768px) {...}
+Large devices (desktops, 992px and up): @media only screen and (min-width: 992px) {...}
+Extra large devices (large desktops, 1200px and up): @media only screen and (min-width: 1200px) {...}
+*/
+.box {
+  background-color: aqua;
+  border: 5px solid black;
+  height: 300px;
+  width: 300px;
+}
+/* 
+@media (min-width: 500px) {
+  above 500px it will change its color (use this in case of greater than)
+  .box {
+    background-color: green;
+  }
+} 
+*/
+/*
+@media (max-width: 500px) {
+  below 500px it will change its color (use this in case of less than)
+  .box {
+    background-color: salmon;
+  }
+} 
+*/
+@media (min-width: 300px) and (max-width: 500px) {
+  /* above 300px below 500px it will change its color */
+  .box {
+    background-color: salmon;
+  }
+}
+.container {
+  border: 5px solid black;
+  display: flex;
+}
+.items {
+  height: 120px;
+  width: 120px;
+  border: 5px solid black;
+  margin: 10px;
+}
+#item1 {
+  background-color: coral;
+}
+#item2 {
+  background-color: deepskyblue;
+}
+#item3 {
+  background-color: goldenrod;
+}
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+.flexbox {
+  display: flex;
+  border: 5px solid black;
+}
+.flexitem {
+  border: 5px solid black;
+  margin: 10px;
+}
+.text {
+  border: 5px solid black;
+  margin: 5px;
+}
+@media (min-width: 640px) {
+  /*<640*/
+  .flexbox {
+    flex-direction: row;
+  }
+}
+@media (max-width: 640px) {
+  /*>640*/
+  .flexbox {
+    flex-direction: column;
+  }
+}

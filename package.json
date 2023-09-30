@@ -1,0 +1,15 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "My journey into learning web development",
+  "main": "JavaScript/13 Node/script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

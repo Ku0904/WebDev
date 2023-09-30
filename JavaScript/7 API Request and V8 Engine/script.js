@@ -15,3 +15,8 @@ xhr.onreadystatechange = function () {
 xhr.send();
 
 // js runs on V8 engine in chrome which is made with c++
+
+// how to use JSON
+// const jsonName = {//json}
+// const someObject = JSON.parse(jsonName)
+// someObject.anyproperty

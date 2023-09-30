@@ -8,6 +8,8 @@
 //   alert("owl clicked"); this will provide less features
 // };
 
+// we can use on click events as well
+
 // event properties:- type, timestamp, defaultPrevented, target, toElement, srcElement, currentTarget, clientX, clienty, screenX, screenY, altkey, ctrlkey, shiftkey, keyCode
 
 document.getElementById("images").addEventListener(

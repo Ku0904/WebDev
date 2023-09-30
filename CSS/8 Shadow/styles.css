@@ -1,0 +1,72 @@
+/* 
+Keyword values 
+box-shadow: none;
+
+offset-x | offset-y | color 
+box-shadow: 25px 25px #212121;
+
+offset-x | offset-y | blur-radius | color 
+box-shadow: 10px 5px 5px #212121;
+
+offset-x | offset-y | blur-radius | spread-radius | color 
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+inset | offset-x | offset-y | color 
+box-shadow: inset 5em 1em gold;
+
+Any number of shadows, separated by commas 
+box-shadow: 3px 3px red,-1em 0 0.4em olive;
+
+Global values
+box-shadow: inherit;
+box-shadow: initial;
+box-shadow: revert;
+box-shadow: revert-layer;
+box-shadow: unset;
+*/
+.container {
+  --primary-color: #aa336a; /*variables in CSS if we put them inside :root{} we can access them anywhere*/
+  --custom-width: 800px;
+  background-color: var(--primary-color);
+  border: 2px solid black;
+  height: 800px;
+  width: var(--custom-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: #bf40bf;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+  box-shadow: 25px 25px #212121;
+}
+
+/* 
+offset-x | offset-y | blur-radius | color 
+text-shadow: 1px 1px 2px black;
+
+color | offset-x | offset-y | blur-radius 
+text-shadow: #fc0 1px 0 10px;
+
+offset-x | offset-y | color
+text-shadow: 5px 5px #558abb;
+
+color | offset-x | offset-y
+text-shadow: white 2px 5px;
+
+offset-x | offset-y
+Use defaults for color and blur-radius 
+text-shadow: 5px 10px;
+
+Global values 
+text-shadow: inherit;
+text-shadow: initial;
+text-shadow: revert;
+text-shadow: revert-layer;
+text-shadow: unset;
+*/
+h2 {
+  text-shadow: 1px 1px 2px white;
+}

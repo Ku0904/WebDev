@@ -1,0 +1,13 @@
+for web interactivity we use JavaScript 
+
+alternates typeScript(compiles down to JavaScript) and VBScript
+
+backward compatibility in JavaScript code that is valid and running today should be working in feature JavaScript engines
+
+jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax now mostly used in legacy code
+
+if parentheses() are not used in a mathematical calculation, JavaScript will follow the standard mathematical sequence of calculation
+
+`` for template literal syntax to make Template literals (Template strings) commonly used for String interpolation,You can create multi-line strings and You can combine strings with less code
+
+critical rendering path do look it up
